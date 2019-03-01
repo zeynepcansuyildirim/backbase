@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.MasterSirketler">
+        <methods>
+          <include name="test_Login"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- tests.MasterSirketler -->
+      <class name="tests.MasterSehirler">
+        <methods>
+          <include name="test_Login"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- tests.MasterSehirler -->
+      <class name="tests.MasterRestoranlar">
+        <methods>
+          <include name="endTest"/>
+          <include name="test_Login"/>
+        </methods>
+      </class> <!-- tests.MasterRestoranlar -->
+      <class name="tests.MasterBankalar">
+        <methods>
+          <include name="test_Login"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- tests.MasterBankalar -->
+      <class name="tests.MasterOdemeMethodlari">
+        <methods>
+          <include name="endTest"/>
+          <include name="test_Login"/>
+        </methods>
+      </class> <!-- tests.MasterOdemeMethodlari -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
